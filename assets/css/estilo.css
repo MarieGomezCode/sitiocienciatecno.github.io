@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+
+/*    
+      Fuentes:
+      font-family: 'IBM Plex Mono', monospace;   
+      font-family: 'Audiowide', cursive;
+
+
+*/
+
+
+
+/* GENERAL */
+
+*{
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  background-color: #202020;
+  font-family: 'IBM Plex Mono', monospace;
+  text-decoration: none;
+
+
+}
+
+/* HEADER  */
+
+header{
+  justify-content: space-around;
+  display:flex ;
+  align-items: center;
+  
+
+}
+
+/* NAVEGACION */
+
+
+
+nav a{
+  color: #FF7077;
+  font-family: 'Audiowide', cursive;
+  padding: auto ; 
+  font-size: 1em;
+  text-align: center;
+
+}
+
+
+
+/*Contenido*/
+
+.miContenedor{
+  width: 95%; 
+  margin-left: auto;  
+  margin-right: auto  ; 
+
+
+
+  
+}
+.banner{
+  width: 95%; 
+  padding: 10px;
+
+  
+
+}
+.conVideo{
+  width: 100%; 
+  margin-right: auto;  
+  margin-left: auto;
+ 
+  max-width: 600px;
+  min-width: 300px; 
+  max-height: 400px;
+  min-height: 200px;
+
+}
+video{
+ width: 100%;
+ border-radius: 20px;
+}
+
+
+.frase{
+  text-align: center;
+  
+  font-style: italic;
+  padding: 10px;
+}
+
+
+.secciones section{
+  float: left;
+  
+}
+
+
+.uno{
+
+  
+  width: 97%;
+  margin-right: auto; 
+  margin-left: auto;
+  
+
+
+}
+.uno section{
+  width: 47%;
+  padding: 3px;
+  border-left: 1px solid chocolate;
+
+}
+.dos{
+  
+  
+  width: 97%;
+  margin-right: auto; 
+  margin-left: auto;
+}
+.dos section{
+  width: 47%;
+  padding: 3px;
+  border-right: 1px solid chocolate;
+}
+.secciones h1{
+  color: #499FA4;
+  
+}
+.secciones a{
+  text-decoration: underline;
+}
+
+main h2{
+  text-align: center;
+}
+body{
+  background-color: #191919;
+}
+hr{
+  margin-top: 40px; 
+  margin-bottom: 40px;
+}
+.images{
+  width: 60%; 
+  margin-left: auto;  
+  margin-right: auto;
+  background-color: #191919;
+}
+
+.images img{
+  width: 300px; 
+  height: 200px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+/* FOOTER */
+footer{
+  width: 100%;  
+  text-align: center;
+
+}
+.hijoFoo{
+  width: 95%; 
+  margin-left: auto;  
+  margin-right: auto; 
+}
+
+footer p{
+  font-style: italic;
+}
+footer a{
+  text-decoration: none; 
+  color:#E98973;
+}
+.footer{
+  margin: 55px;
+}
+
+
+
+i{
+  font-size: 4em;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: transparent;
+}
+
+/*OTHER PAGE*/
+.acerca{
+  width: 95%;
+  margin: 0 auto;
+
+}
+li{
+  text-decoration: none;
+}
+
+
+/*Qerysseclecyor*/
+@media (min-width: 1000px) {
+  .acerca p ,ul{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .noti p,h1{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*  Other pages */
+.noti{
+  width: 95%; 
+  margin-right: auto; 
+  margin-left: auto;
+}
+.mainDescu{
+  width: 80%;
+  margin-left: auto ;
+  margin-right: auto;
+}
+
+.marte{
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 20%;
+  margin-top: 20px;
+}
